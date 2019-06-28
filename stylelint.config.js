@@ -2,6 +2,7 @@
 
 module.exports = {
   extends: 'stylelint-config-recommended',
+  plugins: ['stylelint-order'],
   rules: {
     'at-rule-empty-line-before': [
       'always',
@@ -78,6 +79,8 @@ module.exports = {
     'no-missing-end-of-source-newline': true,
     'number-leading-zero': 'always',
     'number-no-trailing-zeros': true,
+    'order/order': ['custom-properties', 'declarations'],
+    'order/properties-alphabetical-order': true,
     'property-case': 'lower',
     'rule-empty-line-before': [
       'always-multi-line',

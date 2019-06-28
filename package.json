@@ -54,6 +54,7 @@
     "protractor": "~5.4.0",
     "stylelint": "^10.1.0",
     "stylelint-config-recommended": "^2.2.0",
+    "stylelint-order": "^3.0.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "tslint-config-prettier": "^1.18.0",
